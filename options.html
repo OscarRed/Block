@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Block Options</title>
+    <link rel="stylesheet" href="options.css" type="text/css">
+</head>
+
+<body>
+    <div class="section">
+        <p>Start Time</p>
+        <p class="subtext">Enter the time you would like the block to start each day.</p>
+        <input type="time" id="startTime">
+    </div>
+    <hr>
+    <div class="section">
+        <p>End Time</p>
+        <p class="subtext">Enter the time you would like the block to end each day.</p>
+        <input type="time" id="endTime">
+    </div>
+    <hr>
+    <div class="section">
+        <p>Website List</p>
+        <p class="subtext">Enter the website hostnames below you would like blocked. One website per line.</p>
+        <textarea id="websites"></textarea>
+        <p class="subtext" id="status"></p>
+        <button id="save">Save</button>
+        <script src="options.js"></script>
+    </div>
+</body>
+
+</html>

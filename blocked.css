@@ -1,0 +1,21 @@
+h1 {
+    font-size: 2rem;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #BAB7B7;
+    text-align: center;
+    margin-top: 175px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #BAB7B7;
+    text-align: center;
+}
+
+#cross {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 175px;
+}
