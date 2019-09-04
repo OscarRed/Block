@@ -3,7 +3,7 @@ chrome.webNavigation.onBeforeNavigate.addListener(function(details) {
     var currentHostname = new URL(details.url).hostname;
 
     chrome.storage.sync.get({
-        websiteList: "",
+        websiteList: "www.youtube.com\nyoutube.com",
         startTime: "06:00",
         endTime: "18:00"
     }, function(options) {

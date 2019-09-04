@@ -16,7 +16,7 @@ function saveOptions() {
 
 function restoreOptions() {
     chrome.storage.sync.get({
-        websiteList: "",
+        websiteList: "www.youtube.com\nyoutube.com",
         startTime: "06:00",
         endTime: "18:00"
     }, function(options) {
