@@ -1,5 +1,5 @@
 # Block
-A lightweight website blocking Chrome extension. With minimal code and clean settings.
+A lightweight website blocking Chrome extension (< 1MB). With minimal code and clean settings.
 
 Screenshot of settings.
 
