@@ -28,7 +28,7 @@ chrome.storage.sync.get({
     
     var sLeft = secondsLeft(startTimeSplit, endTimeSplit);
 
-    var totalHours = Math.floor(sLeft / 3600);
+    var totalHours = Math.floor(sLeft / 3600);  
     var totalMinutes = (sLeft % 3600) / 60;
 
     if (totalHours <= 0) {
